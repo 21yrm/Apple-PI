@@ -1,0 +1,6 @@
+# Alternative to environment.yml for an existing Python 3.10 environment.
+# The conda workflow in docs/INSTALLATION.md is the supported installation path.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0
+torchvision==0.25.0
+-e .[evaluation]

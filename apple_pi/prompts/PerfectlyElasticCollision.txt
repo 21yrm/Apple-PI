@@ -1,0 +1,31 @@
+right:
+m_1·v_1i + m_2·v_2i = m_1·v_1f + m_2·v_2f
+(1/2)·m_1·v_1i² + (1/2)·m_2·v_2i² = (1/2)·m_1·v_1f² + (1/2)·m_2·v_2f²
+
+wrong:
+v_2f - v_1f = e·(v_1i - v_2i)
+ΔE = μ_k·m·g·d
+I = I_cm + m·(a/2)²
+∫ F(t) dt = Δ(mv)
+
+unrelated:
+F = k·q_1·q_2 / r²
+PV = nRT
+T = 2π·√(m/k)
+ΔS = Q_rev / T
+B = μ_0·I / (2π·r)
+E = h·f
+U = (1/2)·C·V²
+F_b = ρ_f·g·V
+λ = h/(m·v)
+n_1·sinθ_1 = n_2·sinθ_2
+L = I·ω
+Q = m·c·ΔT
+
+fictional:
+v_1f = v_1i·(m_1² - m_2²) / (m_1 + m_2)²
+v_2f = 2·m_1·v_1i·cosθ / (m_1 + m_2)
+E_k = (1/2)·(m_1·v_1i + m_2·v_2i)² / (m_1 + m_2)
+v_cm = (m_1·v_1i² + m_2·v_2i²) / (2·(m_1·v_1i + m_2·v_2i))
+ΔE = (1/2)·m_1·(v_1f - v_1i)²·(m_1/m_2 + 1)
+v_1f = v_1i · e^(-m_2/m_1) + v_2i·(1 - e^(-m_2/m_1))

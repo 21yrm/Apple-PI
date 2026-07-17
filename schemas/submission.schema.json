@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Apple-PI prediction submission",
+  "type": "object",
+  "required": ["model", "protocol", "num_rollouts"],
+  "properties": {
+    "model": {"type": "string", "minLength": 1},
+    "protocol": {"enum": ["video", "image"]},
+    "num_rollouts": {"const": 3},
+    "prompt_version": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

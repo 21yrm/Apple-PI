@@ -1,0 +1,32 @@
+right:
+(1/2)·m·v_0² + m·g·R·(1-cosθ_start) = (1/2)·m·v² + m·g·R·(1-cosθ)
+F_N - m·g·cosθ = m·v²/R
+
+wrong:
+F = (3/4)·E*·√(R·d³)
+f_s ≤ μ_s·F_N
+f_k = μ_k·F_N
+e = (v_2f - v_1f) / (v_1i - v_2i)
+F_drag =(1/2)·C_d·ρ·A·v²
+
+unrelated:
+Q = m·c·ΔT
+E = σ·T⁴·A
+ΔE = -13.6·(1/n_f² - 1/n_i²) eV
+PV = nRT
+B = μ_0·n·I
+λ = h/(m·v)
+U = -G·m_1·m_2 / r
+I = V / R
+F = k·q_1·q_2 / r²
+ΔS = Q_rev / T
+v = f·λ
+C = Q / V
+
+fictional:
+v² = g·R·(2 - 3·cosθ) / (1 + sinθ)
+F_N = m·g·(cosθ - 2) + m·v²/R
+ω = √(g·cosθ / R) · (1 + sinθ)
+E_total = m·g·R·(3/2 - cosθ)²
+a_c = v²·cosθ / (R·sinθ)
+v_min = √(g·R·sinθ_start / cosθ)

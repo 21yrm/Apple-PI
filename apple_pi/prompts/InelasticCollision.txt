@@ -1,0 +1,31 @@
+right:
+m_1·v_1i + m_2·v_2i = m_1·v_1f + m_2·v_2f
+e = (v_2f - v_1f) / (v_1i - v_2i)
+
+wrong:
+W_f = ∫ μ_k·m·g·ds = ΔE_k
+E_rot = (1/2)·(1/6·m·a²)·ω²
+ΔE = (1/2)·[(m_1·m_2) / (m_1 + m_2)]·(v_1i - v_2i)²
+σ = F/a² = E·ε
+
+unrelated:
+F = k·q_1·q_2 / r²
+PV = nRT
+v = f·λ
+E = h·f
+T = 2π·√(m/k)
+B = μ_0·I / (2π·r)
+Q = m·c·ΔT
+U = -G·m_1·m_2 / r
+n_1·sinθ_1 = n_2·sinθ_2
+λ = h/(m·v)
+ΔS = Q_rev / T
+E = σ·T⁴·A
+
+fictional:
+v_1f = (m_1 - e·m_2)·v_1i / (m_1 + m_2) + v_2i·cosθ
+ΔE_loss = (1/2)·e²·(m_1·m_2)/(m_1+m_2)·(v_1i + v_2i)²
+e = 1 - ΔE / (m_1·v_1i² + m_2·v_2i²)
+v_cm = (m_1·v_1i² + m_2·v_2i²) / (m_1·v_1i + m_2·v_2i)
+J = m_1·m_2·(v_1i - v_2i)·(1+e) / (m_1 + m_2) · sinθ
+ΔE = (1/2)·m_1·m_2·e²·(v_1i - v_2i)² / (m_1 + m_2)

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Apple-PI case metadata",
+  "type": "object",
+  "required": [
+    "case_id", "physics_type", "is_realworld", "annotation",
+    "input_image", "clean_first_frame", "target_time",
+    "physics_duration", "gt_frames_dir", "gt_fps",
+    "deduction_timestamps", "formula_info"
+  ],
+  "properties": {
+    "case_id": {"type": "string"},
+    "physics_type": {"type": "string"},
+    "is_realworld": {"type": "boolean"},
+    "annotation": {"type": "string"},
+    "input_image": {"type": "string"},
+    "clean_first_frame": {"type": "string"},
+    "annotations_only_reference": {"type": ["string", "null"]},
+    "objects_only_reference": {"type": ["string", "null"]},
+    "future_state_reference": {"type": ["string", "null"]},
+    "target_time": {"type": "number"},
+    "physics_duration": {"type": "number", "exclusiveMinimum": 0},
+    "gt_frames_dir": {"type": "string"},
+    "gt_video": {"type": ["string", "null"]},
+    "gt_fps": {"type": "number", "exclusiveMinimum": 0},
+    "gt_total_frames": {"type": "integer", "minimum": 0},
+    "deduction_timestamps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "number", "exclusiveMinimum": 0}
+    },
+    "formula_info": {
+      "type": "object",
+      "required": ["choices", "correct_letter", "correct_formula"],
+      "properties": {
+        "choices": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {"type": "string"}
+        },
+        "correct_letter": {"enum": ["A", "B", "C", "D"]},
+        "correct_formula": {"type": "string"}
+      }
+    }
+  }
+}

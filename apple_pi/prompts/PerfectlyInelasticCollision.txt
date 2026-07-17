@@ -1,0 +1,30 @@
+right:
+m_1·v_1i + m_2·v_2i = (m_1+m_2)·v_f
+
+wrong:
+v_2f - v_1f = e·(v_1i - v_2i)
+W_friction = μ_k·(m_1 + m_2)·g·d
+m = ρ·a³
+(1/2)·m_1·v_1i² + (1/2)·m_2·v_2i² = (1/2)·(m_1 + m_2)·v_f²
+
+unrelated:
+F = G·m_1·m_2 / r²
+PV = nRT
+v = f·λ
+T = 2π·√(L/g)
+E_n = -13.6/n² eV
+I = V / R
+Q = m·c·ΔT
+n_1·sinθ_1 = n_2·sinθ_2
+B = μ_0·I / (2π·r)
+E = h·f
+ΔS = Q_rev / T
+F_b = ρ_f·g·V
+
+fictional:
+v_f = (m_1·v_1i + m_2·v_2i)² / ((m_1 + m_2)·(v_1i + v_2i))
+ΔE = (1/2)·(m_1·m_2)·(v_1i + v_2i)² / (m_1 + m_2)²
+v_f = √(m_1/m_2)·v_1i + √(m_2/m_1)·v_2i
+E_k_f = (m_1²·v_1i² + m_2²·v_2i²) / (2·(m_1 + m_2))
+v_f² = (m_1·v_1i + m_2·v_2i)² / (m_1² + m_2²)
+ΔE_loss = m_1·m_2·(v_1i - v_2i) / (2·(m_1 + m_2))

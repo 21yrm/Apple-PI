@@ -1,0 +1,30 @@
+right:
+x(t) = x_0 + v_0·t
+
+wrong:
+-μ_k·m·g · Δx = (1/2)·m·v² - (1/2)·m·v_0²
+F_ext - μ_k·m·g = m·a
+F_D = (1/2)·C_d·ρ·a²·v²
+F_push ≤ μ_s·m·g
+
+unrelated:
+F = G·m_1·m_2 / r²
+E = (1/2)·C·V²
+λ = h/(m·v)
+PV^γ = constant
+T = 2π·√(L/g)
+τ = I·α
+P = ρ·g·h
+v = f·λ
+B·dl = μ_0·I
+Q = m·c·ΔT
+n_1·sinθ_1 = n_2·sinθ_2
+F_b = ρ_f·g·V
+
+fictional:
+x(t) = x_0 + v_0·t + (v_0²/c²)·t²
+v(t) = v_0 · e^(-t/τ_0)
+x(t) = x_0·(1 + v_0·t/x_0)^(1/2)
+p = m·v_0 · ln(1 + t/τ)
+a_uniform = v_0 / (x_0·t)
+x = v_0²·t / (2·x_0)

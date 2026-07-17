@@ -1,0 +1,30 @@
+right:
+ΣF_ext = 0
+ΣM_ext = 0
+
+wrong:
+W = ΔE_k = (1/2)·m·v_t² - (1/2)·m·v_0²
+G = m·g
+F_drag = (1/2)·C_d·ρ·A·v²
+
+unrelated:
+v = f·λ
+E = h·f
+PV = nRT
+F = q·v × B
+U = -G·m_1·m_2 / r
+I = V / R
+T = 2π·√(m/k)
+ΔS = Q_rev / T
+B = μ_0·I / (2π·r)
+λ = h/(m·v)
+E = (1/2)·C·V²
+n_1·sinθ_1 = n_2·sinθ_2
+
+fictional:
+ΣF_ext = m·g·tan(α_eq)
+ΣM_ext = F·r·cos²θ / (1 + sinθ)
+F_balance = (m_1 - m_2)·g / (cosα + sinβ)
+τ_net = Σ(F_i·r_i·sinθ_i) · e^(-μ·t)
+F_eq = m·g / (1 + μ_s·tanθ)²
+ΣF = m·Δv / (Δt·cosθ)

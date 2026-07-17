@@ -1,0 +1,31 @@
+right:
+y(t) = h + v_0·t + (1/2)·g·t²
+v = v_0 + g·t
+
+wrong:
+v_final = -e·v_impact
+I = (1/10)·m·d²
+P + (1/2)·ρ·v² + ρ·g·h = constant
+F·Δt = m·v_f - m·v_i
+
+unrelated:
+F = k·q_1·q_2 / r²
+PV = nRT
+τ = r × F
+T = 2π·√(m/k)
+n_1·sinθ_1 = n_2·sinθ_2
+E = h·f
+Q = m·c·ΔT
+F_b = ρ_f·g·V
+B = μ_0·I / (2π·r)
+U = -G·m_1·m_2 / r
+ΔS = Q_rev / T
+v = f·λ
+
+fictional:
+y(t) = h·(1 - e^(-g·t²/2))
+v = v_0·cos(g·t / v_0)
+a_eff = g·ln(1 + t/τ_0)
+Δy = g²·t³ / (6·v_0)
+F_fall = m·g·(1 + v/c) / √(1 - v²/c²)
+v_impact = √(g·h) · (1 + μ·t)

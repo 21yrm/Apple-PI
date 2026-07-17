@@ -1,0 +1,31 @@
+right:
+a_slope = g·(sinθ - μ_k·cosθ)
+v² = v_0² + 2·a_slope·s
+
+wrong:
+f_k = μ_k·m·g
+h_cm·sinθ > (a/2)·cosθ
+E_p = m·g·(H - h)
+v_t = g·d²·(ρ_p - ρ_f) / (18·η)
+
+unrelated:
+F = k·q_1·q_2 / r²
+B·dl = μ_0·I
+E = (1/2)·L·I²
+ΔU = q·ΔV
+T = 2π·√(L/g)
+n_1·sinθ_1 = n_2·sinθ_2
+PV^γ = constant
+λ = h/(m·v)
+Q = m·c·ΔT
+F_b = ρ_f·g·V
+ΔS = Q_rev / T
+U = -G·m_1·m_2 / r
+
+fictional:
+a_slope = g·(sinθ + μ_k·cosθ) / (1 + sinθ)
+v² = v_0² + g·sinθ·s·(1 - μ_k·tanθ)
+F_net = m·g·(sin²θ - μ_k·cos²θ) / sinθ
+a = g·(sinθ - μ_k) / (cos²θ + μ_k·sinθ)
+s = v_0·t·cosθ + (1/2)·g·sinθ·t²
+N = m·g·(cosθ - μ_k·sinθ)²

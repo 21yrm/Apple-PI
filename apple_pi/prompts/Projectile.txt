@@ -1,0 +1,30 @@
+right:
+y = h + x·tanθ - g·x² / (2·v_0²·cos²θ)
+
+wrong:
+h_next = e²·h_current
+F_drag = (1/2)·C_d·ρ·A·v² (A = π·(d/2)²)
+a_n = v² / ρ
+m·g·h + (1/2)·m·v_0² = constant
+
+unrelated:
+L = I·ω
+ΔU = q·ΔV
+E_n = -13.6/n² eV
+λ = h/(m·v)
+ΔS = Q_rev / T
+B = μ_0·I / (2π·r)
+U = (1/2)·k·x²
+σ = F_⊥ / A
+PV^γ = constant
+F = G·m_1·m_2 / r²
+I = V / R
+T = 2π·√(L/g)
+
+fictional:
+R = v_0²·sin(2θ) / (g·cos²θ)
+y = h·cos(g·x / v_0²) + x·tanθ
+t_flight = 2·v_0·sin²θ / g
+v_x(t) = v_0·cosθ · e^(-g·t/v_0)
+y_max = v_0²·sin²θ / (2·g·cosθ)
+x(t) = v_0·t·cosθ · (1 - g·t/v_0)

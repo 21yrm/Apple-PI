@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apple-pi"
+version = "0.1.0"
+description = "Inference prompts and paper-compatible evaluation for Apple-PI"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dependencies = [
+  "google-genai==1.60.0",
+  "huggingface-hub>=1.23,<2",
+  "numpy>=2.0,<2.3",
+  "opencv-python>=4.10,<5",
+  "Pillow>=11,<13",
+  "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+evaluation = [
+  "torch==2.10.0",
+  "torchvision==0.25.0",
+  "transformers==5.1.0",
+  "moge @ git+https://github.com/microsoft/MoGe.git@07444410f1e33f402353b99d6ccd26bd31e469e8",
+]
+
+[project.scripts]
+apple-pi = "apple_pi.cli.main:main"
+
+[tool.setuptools.packages.find]
+include = ["apple_pi*"]
+
+[tool.setuptools.package-data]
+"apple_pi.prompts" = ["*.txt"]

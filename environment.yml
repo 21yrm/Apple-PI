@@ -1,0 +1,15 @@
+name: apple-pi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip>=25
+  - git
+  - ffmpeg
+  - pip:
+      # PyTorch stopped publishing official conda packages after 2.5. The
+      # reproducible environment uses the official CUDA 12.8 wheels instead.
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.10.0
+      - torchvision==0.25.0
+      - -e .[evaluation]
