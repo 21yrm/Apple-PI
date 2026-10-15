@@ -1,5 +1,7 @@
 <h1 align="center">Apple-π: Benchmarking Thinking with Video<br>Towards Law-Grounded Physical Intelligence</h1>
 
+<p align="center"><strong>🎉 Accepted at NeurIPS 2026</strong></p>
+
 <p align="center"><strong>Runmao Yao<sup>*</sup>, Kairui Hu<sup>*</sup>, Yukang Cao, Ruisi Wang, Shulin Tian, Ziang Cao, Weichen Fan,<br>Ziqi Huang, Yuhao Dong, Hao Li, Zhaoxi Chen, Zhongang Cai, Lei Yang, Ziwei Liu<sup>†</sup></strong></p>
 
 <p align="center">S-Lab, Nanyang Technological University · The Chinese University of Hong Kong<br><sup>*</sup>Equal contribution · <sup>†</sup>Corresponding author</p>
@@ -19,6 +21,7 @@
 
 ## 📰 News
 
+- **2026/09:** 🎉 Apple-π has been accepted to **NeurIPS 2026**!
 - **2026/08:** The complete Apple-π GT dataset is released on [Hugging Face](https://huggingface.co/datasets/yaorunmao/Apple-PI-GT).
 - **2026/07:** Project page, public leaderboard, and demo video are online.
 - **2026/07:** Inference prompts and paper-compatible evaluation code prepared for release.
